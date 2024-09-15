@@ -1,8 +1,6 @@
 @media only screen and (min-width: 1050px) {
-
+/*------------------main--------------*/
     #container {
-
-
 
         overflow-y: auto;
         display: grid;
@@ -19,7 +17,7 @@
 
         width: 100%;
     }
-
+/*-----------------header------------------*/
     #header {
         grid-area: hd;
         display: flex;
@@ -40,12 +38,6 @@
         align-items: center;
     }
 
-    /* .logo {
-        width: 80px;
-        height: 80px;
-        border-radius: 50px;
-    
-    } */
 
     #header_section2 {
         flex: 6;
@@ -98,7 +90,7 @@
         width: 120px;
         height: 100px;
     }
-
+/*---------------------main------*/
     #main {
         margin-top: 20px;
         grid-area: mn;
@@ -119,7 +111,7 @@
         justify-content: center;
         align-items: center;
 
-width: 500px;
+       width: 500px;
     }
 
     #main__info article {
@@ -186,7 +178,7 @@ width: 500px;
             "c";
 
     }
-
+/*-----------project------------*/
     #projects {
 
         grid-area: p;
@@ -262,12 +254,9 @@ width: 500px;
     #project8 {
         grid-area: p8;
     }
-
+/*-----------------skills-----------*/
     .all__skills {
         background-color: #fff;
-        /* margin-left: 1%;
-        margin-right: 1%; */
-
         margin-bottom: 3%;
         border: 5px solid#c8a8e9;
         box-shadow: #787775 0px 5px 5px;
@@ -279,16 +268,6 @@ width: 500px;
 
     }
 
-    /* .skill {
-    
-        border: 1px solid rgb(219, 214, 214);
-        box-shadow: #c7a99e 0px 5px 5px;
-        border-radius: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-     */
     #skills {
         grid-area: s;
         display: grid;
@@ -414,10 +393,11 @@ width: 500px;
     #foot {
         grid-area: ft;
     }
-h3{
+   h3{
 font-size: 30px;
+   }
 
-}
+   
     .project-container {
         padding: 20px;
         background-color: #fff;
@@ -450,37 +430,7 @@ border: 5px solid#c8a8e9;
                 }
     
 }
-/* #cert{
-    margin-top: 100px;
-    overflow-x: hidden;
-    display: grid;
-    grid-template-columns:repeat(3,1fr) ;
-    grid-template-rows: repeat(3,1fr);
-    grid-template-areas: 
-    ". c1."
-    ". c2."
-    ". c3."
-    ;
-}
-#cert1{
-grid-area: c1;
-}
-#cert2{
-    grid-area: c2;
-}
-#cert3{
-    grid-area: c3;
-}
-#img1{
-    width: 60vw;
-}
-#img2{
-    width: 60vw;
-}
-#img3{
-    width: 60vw;
-    
-} */
+
 
 
 

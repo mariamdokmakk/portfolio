@@ -1,5 +1,5 @@
 @media only screen and (min-width: 601px) and (max-width: 1049px) {
-
+/*----------------------main----------------*/
     #container {
         width: 100%;
         overflow: hidden;
@@ -13,7 +13,7 @@
             "mn"
             "ft";
     }
-
+/*-----------------------header------------*/
     #header {
         grid-area: hd;
         width: 100%;
@@ -92,7 +92,7 @@
             "s"
             "nav";
     }
-
+/*--------------------------main----------------------*/
     #main__photo {
         grid-area: m-p;
         display: flex;
@@ -140,8 +140,8 @@
     }
     h3{
         font-size: 30px;
-    
         }
+        /*----------------------------------------project--*/
     #projects {
         margin-left: 1%;
         margin-right: 1%;
@@ -203,7 +203,7 @@
     .project div {
         margin-left: 2%;
     }
-
+/*----------------------skill------------------*/
     #skills {
         grid-area: s;
         display: grid;
@@ -303,11 +303,6 @@
         align-items: center;
         list-style: none;
     }
-
-    /* .logo__item a {
-        padding: 20px;
-        color: #a36361;
-    } */
 
     .logo__item a {
         padding: 60px;
