@@ -4,6 +4,7 @@
         width: 100vw;
         height: 400vh;
         overflow-y: auto;
+        overflow-x: hidden;
         display: grid;
         grid-template-rows: 10px 300vh 10vh;
         grid-template-columns: 100vw;
@@ -16,12 +17,12 @@
 /*---------------------header-----------------------*/
     #header {
         grid-area: hd;
-     
+        width: 100vw;
         height: 10vh;
         position: fixed;
         display: flex;
         background-color: white;
-        width: 100%;
+        
         box-shadow: #787775 0px 5px 5px;
         border-radius: 0.5px;
 
@@ -31,7 +32,7 @@
     }
 
     #header_section1 {
-        flex: 1;
+        flex: 2;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -55,7 +56,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 80%;
 
     }
 
@@ -72,7 +73,7 @@
     }
 
     .list__item a {
-        color: #992d29;
+        color: rgb(108, 32, 146);
         text-align: center;
         height: 10px;
         display: flex;
@@ -80,12 +81,12 @@
         align-items: center;
         text-decoration: none;
         font-weight: bold;
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .list__item {
 
-        margin: 9%;
+        margin: 6%;
 
 
     }
@@ -119,12 +120,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
+        height: 300px;
+        width: 350px;
     }
 
     #profile {
-        height: 400px;
-        width: 450px;
+        height: 300px;
+        width: 350px;
     }
 
     #main__info {
@@ -145,14 +147,14 @@
 
     #name {
         font-size: 25px;
-        color: #8c514f;
+        color: rgb(148, 85, 180);
         font-weight: bold;
         margin: 5px;
     }
 
     #title {
         font-size: 30px;
-        color: #72312f;
+        color: rgb(79, 23, 107);
         font-weight: bold;
         margin-left: 5px;
     }
@@ -371,7 +373,7 @@
     }
     #contact_section1 h2 {
         font-size: 30px;
-        color: #72312f;
+        color: rgb(79, 23, 107);
         font-weight: bold;
         margin-left: 5px;
     

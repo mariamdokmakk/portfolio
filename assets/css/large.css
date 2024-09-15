@@ -2,7 +2,8 @@
 /*------------------main--------------*/
     #container {
 
-        overflow-y: auto;
+       overflow-y: auto;
+        overflow-x: hidden;
         display: grid;
         grid-template-rows: 6vh 84vh 10vh;
         grid-template-columns: 70vw 30vw;
@@ -63,7 +64,7 @@
 
     .list__item a {
         padding: 30px;
-        color: #a36361;
+        color: rgb(108, 32, 146);
 
     }
 
@@ -84,6 +85,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        
     }
 
     .selfie {
@@ -93,6 +95,8 @@
 /*---------------------main------*/
     #main {
         margin-top: 20px;
+        margin-left: 1vw;
+       
         grid-area: mn;
         display: grid;
         width: 100vw;
@@ -137,7 +141,7 @@
 
     #name {
         font-size: 50px;
-        color: #8c514f;
+        color: rgb(148, 85, 180);
         font-weight: bold;
         margin-top: 30px;
         margin-left: 30px;
@@ -145,7 +149,7 @@
 
     #title {
         font-size: 60px;
-        color: #72312f;
+        color: rgb(79, 23, 107);
         font-weight: bold;
         margin-left: 27px;
     }
@@ -180,7 +184,7 @@
     }
 /*-----------project------------*/
     #projects {
-
+   margin-right: 3vw;
         grid-area: p;
         display: grid;
         grid-template-rows: 1fr 2fr 2fr;
@@ -302,7 +306,7 @@
 
     #skill1 {
         grid-area: s1;
-        /* background-color: #72312f; */
+        
         border-radius: 15px;
 
 
@@ -358,7 +362,7 @@
 
     #contact_section1 h2 {
         font-size: 60px;
-        color: #72312f;
+        color: rgb(79, 23, 107);
         font-weight: bold;
         margin-left: 27px;
 
@@ -397,8 +401,9 @@
 font-size: 30px;
    }
 
-   
+   /*---------projectsphotos-------------*/
     .project-container {
+        color: rgb(79, 23, 107);
         padding: 20px;
         background-color: #fff;
 border-radius: 50px;
@@ -423,11 +428,7 @@ border: 5px solid#c8a8e9;
 
 
     }
-    h4{
-        font-size: 70px;
-        margin-top: 90px;
-        color: rgb(98, 98, 210);
-                }
+   
     
 }
 
