@@ -60,7 +60,7 @@
 
     .list__item a {
         /* color: #992d29; */
-        color: rgb(108, 32, 146);
+        color: #4f176b;
         text-align: center;
         height: 10px;
         display: flex;
@@ -119,7 +119,7 @@
 
     #name {
         font-size: 35px;
-        color: rgb(148, 85, 180);
+        color: rgb (148, 85, 180) ;
         font-weight: bold;
        margin-left: 4%;
        margin-top: 2%;
@@ -127,7 +127,7 @@
 
     #title {
         font-size: 45px; 
-        color: rgb(79, 23, 107);
+        color: #4f176b;
         font-weight: bold;
         margin-left: 3%;
         margin-bottom: 5px;

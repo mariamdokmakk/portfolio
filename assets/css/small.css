@@ -73,7 +73,7 @@
     }
 
     .list__item a {
-        color: rgb(108, 32, 146);
+        color: #4f176b;
         text-align: center;
         height: 10px;
         display: flex;
@@ -147,14 +147,14 @@
 
     #name {
         font-size: 25px;
-        color: rgb(148, 85, 180);
+        color: rgb (148, 85, 180) ;
         font-weight: bold;
         margin: 5px;
     }
 
     #title {
         font-size: 30px;
-        color: rgb(79, 23, 107);
+        color:#4f176b;
         font-weight: bold;
         margin-left: 5px;
     }
@@ -164,7 +164,7 @@
         font-size: 16px;
         font-weight: bold;
         margin-left: 5px;
-        margin-bottom: 7px;
+        margin-bottom: px;
     }
 /*---------------------------------project-----------------*/
     #projects {

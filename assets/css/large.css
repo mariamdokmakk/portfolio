@@ -64,7 +64,7 @@
 
     .list__item a {
         padding: 30px;
-        color: rgb(108, 32, 146);
+        color:#4f176b;
 
     }
 
@@ -149,7 +149,7 @@
 
     #title {
         font-size: 60px;
-        color: rgb(79, 23, 107);
+        color: #4f176b;
         font-weight: bold;
         margin-left: 27px;
     }
