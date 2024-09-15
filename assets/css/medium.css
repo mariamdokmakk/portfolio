@@ -111,6 +111,7 @@
         grid-area: m-in;
         display: flex;
         margin: 4%;
+        background-color: #fff;
         border: 1px solid rgb(219, 214, 214);
         box-shadow: #787775 0px 5px 5px;
         border-radius: 20px;
@@ -138,6 +139,7 @@
         font-weight: bold;
         margin-left: 2%;
         margin-bottom: 3%;
+        margin-right: 1%;
     }
     h3{
         font-size: 30px;
