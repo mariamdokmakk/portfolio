@@ -103,6 +103,7 @@
         margin-top: 20px;
         grid-area: mn;
         display: grid;
+        width: 100vw;
         grid-template-rows: 8fr 2fr;
         grid-template-columns: 8fr 2fr;
         grid-template-areas:
@@ -118,6 +119,7 @@
         justify-content: center;
         align-items: center;
 
+width: 500px;
     }
 
     #main__info article {
@@ -448,3 +450,44 @@ border: 5px solid#c8a8e9;
                 }
     
 }
+/* #cert{
+    margin-top: 100px;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    ". c1."
+    ". c2."
+    ". c3."
+    ;
+}
+#cert1{
+grid-area: c1;
+}
+#cert2{
+    grid-area: c2;
+}
+#cert3{
+    grid-area: c3;
+}
+#img1{
+    width: 60vw;
+}
+#img2{
+    width: 60vw;
+}
+#img3{
+    width: 60vw;
+    
+} */
+
+
+
+
+
+
+
+
+
+

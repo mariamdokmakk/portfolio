@@ -1,6 +1,5 @@
-
- @import url('./small.css');
- @import url('./large.css'); 
+@import url('./small.css');
+@import url('./large.css');
 @import url('./medium.css');
 
 * {
@@ -8,6 +7,7 @@
     margin: 0;
 
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -15,7 +15,7 @@ html {
 #container {
     width: 100vw;
     height: auto;
-    background-image: url("/photos/background.jpg");
+    background-image: url("../photos/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -29,39 +29,76 @@ html {
         "ft ft"; */
 
 }
+
 #foot {
 
     width: 100%;
 }
-.certificate-container {
+
+/* .certificate-container {
     margin-bottom: 20px;
-     width:98vw ;
+    width: 98vw;
     border: 1px solid #ddd;
     padding: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-   
+
 }
+
 .certificate-title {
     font-size: 1.5em;
     margin-bottom: 10px;
     margin: 10px;
 }
+
 .certificate-image {
     max-width: 100%;
     height: auto;
     margin: 100px;
-}
-#container2{
+} */
+
+/* #container2 {
     width: 100%;
     height: auto;
-   overflow-x: hidden;
+    overflow-x: hidden;
+} */
+
+
+
+
+#cert{
+    height: 150vh;
+    margin-top: 100px;
+    
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". c1 ."
+    ". c2 ."
+    ". c3 ."
+    ;
+    gap: 5%;
 }
-h4{
-    font-size: 70px;
-    margin-top: 90px;
-    color: rgb(98, 98, 210);
-            }
+#cert1{
+grid-area: c1;
+}
+#cert2{
+    grid-area: c2;
+}
+#cert3{
+    grid-area: c3;
+}
+#img1{
+    width: 60vw;
+}
+#img2{
+    width: 60vw;
+}
+#img3{
+    width: 60vw;
+   
+}
 

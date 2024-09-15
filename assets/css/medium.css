@@ -304,13 +304,13 @@
         list-style: none;
     }
 
-    .logo__item a {
+    /* .logo__item a {
         padding: 20px;
         color: #a36361;
-    }
+    } */
 
     .logo__item a {
-        padding: 100px;
+        padding: 60px;
         text-decoration: none;
     }
 
@@ -380,4 +380,6 @@
     .toggle-input:checked + label + .project-image {
         display: block;
     }
+  
+   
 }

@@ -87,7 +87,7 @@
 
     .list__item {
 
-        margin: 10%;
+        margin: 9%;
 
 
     }
@@ -353,11 +353,7 @@
 
     }
 
-    .logo__item a {
-        padding: 30px;
-        color: #a36361;
-
-    }
+ 
 
     .logo__item a {
         padding: 25px;
@@ -372,7 +368,7 @@
     }
     #contact{
         grid-area: c;
-       margin-top: 5%;
+       margin-top: 10%;
        text-align: center;
     }
     #contact_section1{
@@ -406,9 +402,7 @@
       
     }
     
-    #media_section{
-      
-    }
+   
     .project-container {
         padding: 20px;
        background-color: #fff;
@@ -436,9 +430,36 @@
     .toggle-input:checked + label + .project-image {
         display: block;
     }
-    h4{
-        font-size: 30px;
-        margin-top: 10px;
-        color: rgb(98, 98, 210);
-                }
+    /* #cert{
+        margin-top: 100px;
+        overflow-x: hidden;
+        display: grid;
+        grid-template-columns:repeat(3,1fr) ;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        ". c1 ."
+        ". c2 ."
+        ". c3 ."
+        ;
+        row-gap: 15%;
+    }
+    #cert1{
+    grid-area: c1;
+    }
+    #cert2{
+        grid-area: c2;
+    }
+    #cert3{
+        grid-area: c3;
+    }
+    #img1{
+        width: 60vw;
+    }
+    #img2{
+        width: 60vw;
+    }
+    #img3{
+        width: 60vw;
+       
+    } */
 }
