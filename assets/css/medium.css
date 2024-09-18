@@ -70,6 +70,7 @@
         text-decoration: none;
         font-weight: bold;
         font-size: 20px;
+        text-decoration: none;
     }
 
     
@@ -204,6 +205,7 @@
     .project div {
         margin-left: 2%;
     }
+ 
 /*----------------------skill------------------*/
     #skills {
         grid-area: s;

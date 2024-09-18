@@ -66,7 +66,7 @@
       padding: 2vw;
         color:#4f176b;
         justify-content: space-evenly;
-
+        text-decoration: none;
     }
 
     .logo__item a {
@@ -97,7 +97,7 @@
 /*---------------------main------*/
     #main {
         margin-top: 20px;
-        margin-left: 1vw;
+        margin-left: 2vw;
        
         grid-area: mn;
         display: grid;

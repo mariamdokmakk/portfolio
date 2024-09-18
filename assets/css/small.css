@@ -14,7 +14,8 @@
             "ft";
 
     }
-/*---------------------header-----------------------*/
+
+    /*---------------------header-----------------------*/
     #header {
         grid-area: hd;
         width: 100vw;
@@ -22,7 +23,7 @@
         position: fixed;
         display: flex;
         background-color: white;
-        
+
         box-shadow: #787775 0px 5px 5px;
         border-radius: 0.5px;
 
@@ -66,7 +67,7 @@
         justify-content: center;
         align-items: center;
         list-style: none;
-
+        margin-left: 4vw;
 
 
 
@@ -82,10 +83,11 @@
         text-decoration: none;
         font-weight: bold;
         font-size: 10px;
-       padding: 2vw;
+        padding: 2vw;
+        text-decoration: none;
     }
 
-  
+
 
     #header_section3 {
 
@@ -93,7 +95,7 @@
 
     }
 
-/*----------------------main----------------------*/
+    /*----------------------main----------------------*/
     #main {
         margin-top: 68px;
         grid-area: mn;
@@ -143,14 +145,14 @@
 
     #name {
         font-size: 25px;
-        color: rgb (148, 85, 180) ;
+        color: rgb (148, 85, 180);
         font-weight: bold;
         margin: 5px;
     }
 
     #title {
         font-size: 30px;
-        color:#4f176b;
+        color: #4f176b;
         font-weight: bold;
         margin-left: 5px;
     }
@@ -162,7 +164,8 @@
         margin-left: 5px;
         margin-bottom: px;
     }
-/*---------------------------------project-----------------*/
+
+    /*---------------------------------project-----------------*/
     #projects {
         margin-left: 1%;
         margin-right: 1%;
@@ -188,11 +191,11 @@
     }
 
     .project {
-        
+
         margin: 1%;
         display: flex;
         flex-direction: column;
-        
+
         align-items: center;
         justify-content: center;
         border-radius: 20px;
@@ -227,20 +230,24 @@
         grid-area: p5;
 
     }
-    #project5{
+
+    #project5 {
         grid-area: p5;
     }
-   #project6{
-    grid-area: p6;
-}
-    #project7 {
-    grid-area: p7;
-  }  
-  #project8{
-    grid-area: p8;
-}
 
-/*------------------------------skills------------*/
+    #project6 {
+        grid-area: p6;
+    }
+
+    #project7 {
+        grid-area: p7;
+    }
+
+    #project8 {
+        grid-area: p8;
+    }
+
+    /*------------------------------skills------------*/
     .all__skills {
         margin-left: 1%;
         margin-right: 1%;
@@ -253,8 +260,8 @@
     #skills {
         grid-area: s;
         display: grid;
-        grid-template-rows: 100px 1fr 1fr 1fr ;
-        grid-template-columns: 1fr  1fr;
+        grid-template-rows: 100px 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-areas:
             "t t "
             "s1 s2 "
@@ -272,64 +279,66 @@
         display: flex;
         align-items: center;
         justify-content: center;
-       
-    }
-    .all__skills{
 
-      background-color: #fff;
-      border-radius: 15px;
-     margin-bottom: 10vw;
-     border:2px solid#c8a8e9;
-    
     }
+
+    .all__skills {
+
+        background-color: #fff;
+        border-radius: 15px;
+        margin-bottom: 10vw;
+        border: 2px solid#c8a8e9;
+
+    }
+
     .skill {
         flex: 2;
         display: flex;
-       font-size: 20px;
+        font-size: 20px;
         align-items: center;
-      justify-content: center;
-      margin: 5%;
+        justify-content: center;
+        margin: 5%;
     }
 
     #skill1 {
         grid-area: s1;
 
-      
+
     }
 
     #skill2 {
         grid-area: s2;
-       
-       
+
+
     }
 
     #skill3 {
         grid-area: s3;
-    
+
     }
 
     #skill4 {
         grid-area: s4;
-    
+
     }
 
     #skill5 {
         grid-area: s5;
-    
+
     }
 
     #skill6 {
         grid-area: s6;
-        
+
     }
 
     #skill7 {
         grid-area: s7;
-            }
+    }
 
     #skill8 {
         grid-area: s8;
-        
+
     }
 
 
@@ -347,7 +356,7 @@
 
     }
 
- 
+
 
     .logo__item a {
         padding: 8vw;
@@ -360,58 +369,63 @@
         font-weight: bold;
         color: #9EABA2;
     }
-    #contact{
+
+    #contact {
         grid-area: c;
-       margin-top: 10%;
-       text-align: center;
+        margin-top: 10%;
+        text-align: center;
     }
-    #contact_section1{
-        margin-bottom:2% ;
+
+    #contact_section1 {
+        margin-bottom: 2%;
     }
+
     #contact_section1 h2 {
         font-size: 30px;
         color: rgb(79, 23, 107);
         font-weight: bold;
         margin-left: 5px;
-    
-    
+
+
     }
-    #contact_section1 input{
+
+    #contact_section1 input {
         margin-left: 5%;
-    padding: 10px;
-    width: 50%;
-    margin-bottom: 15px;
-    border: 1px black;
-    border-radius: 5px;
-    font-size: 10px;
-    
+        padding: 10px;
+        width: 50%;
+        margin-bottom: 15px;
+        border: 1px black;
+        border-radius: 5px;
+        font-size: 10px;
+
     }
-    #contact_section1 button{
-      font-size: 12px;
-      cursor: pointer;
+
+    #contact_section1 button {
+        font-size: 12px;
+        cursor: pointer;
         width: 100px;
         border-radius: 50px;
         padding: 7px;
-      
+
     }
-    
-   
+
+
     .project-container {
         padding: 20px;
-       background-color: #fff;
+        background-color: #fff;
         cursor: pointer;
         text-align: center;
         border-radius: 50px;
         border: 5px solid#c8a8e9;
 
     }
-    
+
     .toggle-input {
-     display: none;
-      margin: 5%;
-       
+        display: none;
+        margin: 5%;
+
     }
-    
+
     .project-image {
         max-width: 90%;
         height: auto;
@@ -419,8 +433,8 @@
         margin-right: 5%;
         display: none;
     }
-    
-    .toggle-input:checked + label + .project-image {
+
+    .toggle-input:checked+label+.project-image {
         display: block;
     }
 
