@@ -63,8 +63,9 @@
     }
 
     .list__item a {
-        padding: 30px;
+      padding: 2vw;
         color:#4f176b;
+        justify-content: space-evenly;
 
     }
 
@@ -78,6 +79,7 @@
         border-bottom: 2px solid #9EABA2;
         font-weight: bold;
         color: #9EABA2;
+
     }
 
     #header_section3 {

@@ -59,6 +59,7 @@
     }
 
     .list__item a {
+        padding: 2vw;
         /* color: #992d29; */
         color: #4f176b;
         text-align: center;
@@ -71,9 +72,7 @@
         font-size: 20px;
     }
 
-    .list__item {
-        margin: 12%; 
-    }
+    
 
     #header_section3 {
         display: none;
