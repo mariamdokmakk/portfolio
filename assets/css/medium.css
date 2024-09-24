@@ -1,5 +1,6 @@
-@media only screen and (min-width: 601px) and (max-width: 1049px) {
-/*----------------------main----------------*/
+@media only screen and (min-width: 601px) and (max-width: 1025px) {
+
+    /*----------------------main----------------*/
     #container {
         width: 100%;
         overflow-x: hidden;
@@ -13,7 +14,8 @@
             "mn"
             "ft";
     }
-/*-----------------------header------------*/
+
+    /*-----------------------header------------*/
     #header {
         grid-area: hd;
         width: 100%;
@@ -23,6 +25,7 @@
         background-color: white;
         box-shadow: #787775 0px 5px 5px;
         border-radius: 0.5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     #header_section1 {
@@ -33,7 +36,7 @@
     }
 
     .selfie {
-        width: 100px; 
+        width: 100px;
         height: 80px;
         border-radius: 50px;
     }
@@ -73,7 +76,7 @@
         text-decoration: none;
     }
 
-    
+
 
     #header_section3 {
         display: none;
@@ -93,17 +96,18 @@
             "s"
             "nav";
     }
-/*--------------------------main----------------------*/
+
+    /*--------------------------main----------------------*/
     #main__photo {
         grid-area: m-p;
         display: flex;
         justify-content: center;
         align-items: center;
-       
+
     }
 
     #profile {
-        height: 450px; 
+        height: 450px;
         width: 500px;
     }
 
@@ -119,14 +123,14 @@
 
     #name {
         font-size: 35px;
-        color: rgb (148, 85, 180) ;
+        color: rgb (148, 85, 180);
         font-weight: bold;
-       margin-left: 4%;
-       margin-top: 2%;
+        margin-left: 4%;
+        margin-top: 2%;
     }
 
     #title {
-        font-size: 45px; 
+        font-size: 45px;
         color: #4f176b;
         font-weight: bold;
         margin-left: 3%;
@@ -135,21 +139,23 @@
 
     #info {
         color: black;
-        font-size: 20px; 
-        font-weight: bold;
+        font-size: 20px;
+
         margin-left: 2%;
         margin-bottom: 3%;
         margin-right: 1%;
     }
-    h3{
+
+    h3 {
         font-size: 30px;
-        }
-        /*----------------------------------------project--*/
+    }
+
+    /*-----------------------------------project------------------*/
     #projects {
-    
+
         grid-area: p;
         display: grid;
-        grid-template-rows: 50px 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 50px 1fr 1fr 1fr 1fr;
         grid-template-columns: 50vw 50vw;
         grid-template-areas:
             "t t"
@@ -160,6 +166,7 @@
         ;
         gap: 2vw;
     }
+
     #project1 {
         grid-area: p1;
     }
@@ -176,6 +183,7 @@
         grid-area: p4;
 
     }
+
     #project5 {
         grid-area: p5;
     }
@@ -188,7 +196,8 @@
 
         grid-area: p7;
     }
-    #project8{ 
+
+    #project8 {
         grid-area: p8;
     }
 
@@ -205,8 +214,8 @@
     .project div {
         margin-left: 2%;
     }
- 
-/*----------------------skill------------------*/
+
+    /*----------------------skill------------------*/
     #skills {
         grid-area: s;
         display: grid;
@@ -221,55 +230,57 @@
         column-gap: 5vw;
         align-items: center;
     }
+
     #skill1 {
         grid-area: s1;
         /* background-color: #72312f; */
         border-radius: 15px;
-      
+
 
     }
 
     #skill2 {
         grid-area: s2;
-      
+
         border-radius: 15px;
     }
 
     #skill3 {
         grid-area: s3;
-       
+
         border-radius: 15px;
     }
 
     #skill4 {
         grid-area: s4;
-    
+
         border-radius: 15px;
     }
 
     #skill5 {
         grid-area: s5;
-      
+
         border-radius: 15px;
     }
 
     #skill6 {
         grid-area: s6;
-       
+
         border-radius: 15px;
     }
 
     #skill7 {
         grid-area: s7;
-     
+
         border-radius: 15px;
     }
 
     #skill8 {
         grid-area: s8;
-        
+
         border-radius: 15px;
     }
+
     .logo {
         flex: 1;
         margin: 5%;
@@ -290,7 +301,7 @@
     .skill {
         flex: 2;
         display: flex;
-        font-size: 22px; /* Slight increase */
+        font-size: 22px;
         align-items: center;
         justify-content: center;
         margin: 5%;
@@ -306,6 +317,7 @@
     #logo__list {
         display: flex;
         align-items: center;
+        justify-content: center;
         list-style: none;
     }
 
@@ -354,21 +366,22 @@
         border-radius: 50px;
         padding: 10px;
     }
+
     .project-container {
         padding: 20px;
-       background-color: #fff;
+        background-color: #fff;
         cursor: pointer;
         text-align: center;
         border-radius: 50px;
         border: 5px solid#c8a8e9;
     }
-    
-    .toggle-input {
-     display: none;
-      margin: 5%;
-       
-    }
-    
+
+    /* .toggle-input {
+        display: none;
+        margin: 5%;
+
+    } */
+
     .project-image {
         max-width: 90%;
         height: auto;
@@ -376,10 +389,42 @@
         margin-right: 5%;
         display: none;
     }
-    
-    .toggle-input:checked + label + .project-image {
+
+    /* .toggle-input:checked + label + .project-image {
         display: block;
+    } */
+
+    #cert {
+        height: auto;
+        margin-top: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
     }
-  
-   
+
+    .certificates {
+
+        width: 80vw;
+        margin: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .cert_img {
+        width: 80vw;
+        box-shadow: #787775 7px 7px 7px;
+        border-radius: 10px;
+    }
+
+    h4 {
+        font-size: 30px;
+        
+        color: #4f176b;
+        font-weight: bold;
+    }
 }

@@ -1,8 +1,9 @@
-@media only screen and (min-width: 1050px) {
-/*------------------main--------------*/
+@media only screen and (min-width: 1025px) {
+
+    /*------------------main--------------*/
     #container {
 
-       overflow-y: auto;
+        overflow-y: auto;
         overflow-x: hidden;
         display: grid;
         grid-template-rows: 6vh 84vh 10vh;
@@ -18,15 +19,16 @@
 
         width: 100%;
     }
-/*-----------------header------------------*/
+
+    /*-----------------header------------------*/
     #header {
         grid-area: hd;
         display: flex;
         background-color: white;
         position: fixed;
-
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         width: 100vw;
-        border: 1px solid #72312f;
+        /* border: 1px solid #72312f; */
         box-shadow: #787775 0px 5px 5px;
         border-radius: 0.5px;
 
@@ -63,8 +65,8 @@
     }
 
     .list__item a {
-      padding: 2vw;
-        color:#4f176b;
+        padding: 2vw;
+        color: #4f176b;
         justify-content: space-evenly;
         text-decoration: none;
     }
@@ -87,18 +89,19 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
     }
 
     .selfie {
         width: 120px;
         height: 100px;
     }
-/*---------------------main------*/
+
+    /*---------------------main------*/
     #main {
         margin-top: 20px;
         margin-left: 2vw;
-       
+
         grid-area: mn;
         display: grid;
         width: 100vw;
@@ -117,7 +120,7 @@
         justify-content: center;
         align-items: center;
 
-       width: 500px;
+        width: 500px;
     }
 
     #main__info article {
@@ -159,7 +162,7 @@
     #info {
         color: black;
         font-size: 25px;
-        font-weight: bold;
+
         margin-left: 30px;
         margin-bottom: 30px;
     }
@@ -184,9 +187,10 @@
             "c";
 
     }
-/*-----------project------------*/
+
+    /*-----------project------------*/
     #projects {
-   margin-right: 3vw;
+        margin-right: 3vw;
         grid-area: p;
         display: grid;
         grid-template-rows: 1fr 2fr 2fr;
@@ -260,7 +264,8 @@
     #project8 {
         grid-area: p8;
     }
-/*-----------------skills-----------*/
+
+    /*-----------------skills-----------*/
     .all__skills {
         background-color: #fff;
         margin-bottom: 3%;
@@ -308,7 +313,7 @@
 
     #skill1 {
         grid-area: s1;
-        
+
         border-radius: 15px;
 
 
@@ -399,24 +404,25 @@
     #foot {
         grid-area: ft;
     }
-   h3{
-font-size: 30px;
-   }
 
-   /*---------projectsphotos-------------*/
+    h3 {
+        font-size: 30px;
+    }
+
+    /*---------projectsphotos-------------*/
     .project-container {
         color: rgb(79, 23, 107);
         padding: 20px;
         background-color: #fff;
-border-radius: 50px;
-border: 5px solid#c8a8e9;
+        border-radius: 50px;
+        border: 5px solid#c8a8e9;
         cursor: pointer;
         text-align: center;
     }
 
-    .toggle-input {
+    /* .toggle-input {
         display: none;
-    }
+    } */
 
     .project-image {
         max-width: 100%;
@@ -425,22 +431,48 @@ border: 5px solid#c8a8e9;
         display: none;
     }
 
-    .toggle-input:checked+label+.project-image {
+    /* .toggle-input:checked+label+.project-image {
         display: block;
 
 
+    } */
+
+    /*----------------------------certificates---------------*/
+    #cert {
+
+        margin-top: 8%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
     }
-   
-    
+
+    .certificates {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 2%;
+        border-radius: 50px;
+
+
+    }
+
+    .cert_img {
+        width: 50%;
+        height: 50%;
+        box-shadow: #787775 10px 10px 10px;
+        border-radius: 10px;
+
+    }
+
+    h4 {
+
+        font-size: 40px;
+        color: #4f176b;
+        font-weight: bold;
+    }
+
 }
-
-
-
-
-
-
-
-
-
-
-

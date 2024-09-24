@@ -33,9 +33,7 @@ document.getElementById('projects').addEventListener('click', function(event) {
     
     const projectContainer = event.target.closest('.project-container');
     if (projectContainer) {
-        
         const image = projectContainer.querySelector('.project-image');
-        
             container.style.display = "flex";
            img.src = image.src;
         
